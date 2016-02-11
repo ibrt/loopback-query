@@ -1,0 +1,6 @@
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  
+script:
+  - cd loopback-query && mvn test
