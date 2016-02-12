@@ -48,7 +48,9 @@ public class Serializer {
 	
 	@Override
 	public String toString() {
-		ensureNotEmpty();
+		if (stack.size() != 1) {
+			throw new IllegalStateException("Stack must contain only one element in order to convert Serializer to string.");
+		}
 		return stack.get(0).toString();
 	}
 	

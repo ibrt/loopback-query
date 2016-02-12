@@ -78,8 +78,7 @@ public final class Include {
 				.literal(SPACE)
 				.unquoted(entry.getValue())
 				.literal(SPACE)
-				.literal(CLOSE_BRACE)
-				.toString();
+				.literal(CLOSE_BRACE);
 		}
 		
 		return serializer
