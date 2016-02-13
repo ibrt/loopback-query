@@ -1,4 +1,4 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
 import java.util.ArrayList;
 import java.util.HashMap;

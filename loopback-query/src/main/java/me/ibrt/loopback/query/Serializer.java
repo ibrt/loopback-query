@@ -1,6 +1,6 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Serializer.Literal.QUOTE;
+import static me.ibrt.loopback.query.Serializer.Literal.QUOTE;
 
 import java.util.ArrayList;
 import java.util.List;

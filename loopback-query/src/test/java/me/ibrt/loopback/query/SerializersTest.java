@@ -1,17 +1,18 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Helpers.asList;
-import static com.ibrt.loopback.query.Helpers.asMap;
-import static com.ibrt.loopback.query.Include.newInclude;
-import static com.ibrt.loopback.query.Order.newAsc;
-import static com.ibrt.loopback.query.Order.newDesc;
-import static com.ibrt.loopback.query.Serializers.serializeCustom;
-import static com.ibrt.loopback.query.Serializers.serializeFields;
-import static com.ibrt.loopback.query.Serializers.serializeInclude;
-import static com.ibrt.loopback.query.Serializers.serializeLimit;
-import static com.ibrt.loopback.query.Serializers.serializeOrders;
-import static com.ibrt.loopback.query.Serializers.serializeSkip;
+import static me.ibrt.loopback.query.Helpers.asList;
+import static me.ibrt.loopback.query.Helpers.asMap;
+import static me.ibrt.loopback.query.Include.newInclude;
+import static me.ibrt.loopback.query.Order.newAsc;
+import static me.ibrt.loopback.query.Order.newDesc;
+import static me.ibrt.loopback.query.Serializers.serializeCustom;
+import static me.ibrt.loopback.query.Serializers.serializeFields;
+import static me.ibrt.loopback.query.Serializers.serializeInclude;
+import static me.ibrt.loopback.query.Serializers.serializeLimit;
+import static me.ibrt.loopback.query.Serializers.serializeOrders;
+import static me.ibrt.loopback.query.Serializers.serializeSkip;
 import static org.junit.Assert.assertEquals;
+import me.ibrt.loopback.query.Order;
 
 import org.junit.Test;
 

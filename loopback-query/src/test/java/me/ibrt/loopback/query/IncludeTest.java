@@ -1,6 +1,6 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Include.newInclude;
+import static me.ibrt.loopback.query.Include.newInclude;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
