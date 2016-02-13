@@ -1,12 +1,12 @@
-package com.ibrt.loopback.query;
-import static com.ibrt.loopback.query.Serializer.newSerializer;
-import static com.ibrt.loopback.query.Serializer.Literal.CLOSE_BRACE;
-import static com.ibrt.loopback.query.Serializer.Literal.CLOSE_SQUARE;
-import static com.ibrt.loopback.query.Serializer.Literal.COLUMN;
-import static com.ibrt.loopback.query.Serializer.Literal.COMMA_SPACE;
-import static com.ibrt.loopback.query.Serializer.Literal.OPEN_BRACE;
-import static com.ibrt.loopback.query.Serializer.Literal.OPEN_SQUARE;
-import static com.ibrt.loopback.query.Serializer.Literal.SPACE;
+package me.ibrt.loopback.query;
+import static me.ibrt.loopback.query.Serializer.newSerializer;
+import static me.ibrt.loopback.query.Serializer.Literal.CLOSE_BRACE;
+import static me.ibrt.loopback.query.Serializer.Literal.CLOSE_SQUARE;
+import static me.ibrt.loopback.query.Serializer.Literal.COLUMN;
+import static me.ibrt.loopback.query.Serializer.Literal.COMMA_SPACE;
+import static me.ibrt.loopback.query.Serializer.Literal.OPEN_BRACE;
+import static me.ibrt.loopback.query.Serializer.Literal.OPEN_SQUARE;
+import static me.ibrt.loopback.query.Serializer.Literal.SPACE;
 
 import java.util.ArrayList;
 import java.util.HashMap;

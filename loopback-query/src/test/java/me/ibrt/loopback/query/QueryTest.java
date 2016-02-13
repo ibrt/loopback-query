@@ -1,10 +1,10 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Include.newInclude;
-import static com.ibrt.loopback.query.Order.newAsc;
-import static com.ibrt.loopback.query.Query.newQuery;
-import static com.ibrt.loopback.query.Where.newWhere;
-import static com.ibrt.loopback.query.Where.Clause.newClause;
+import static me.ibrt.loopback.query.Include.newInclude;
+import static me.ibrt.loopback.query.Order.newAsc;
+import static me.ibrt.loopback.query.Query.newQuery;
+import static me.ibrt.loopback.query.Where.newWhere;
+import static me.ibrt.loopback.query.Where.Clause.newClause;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

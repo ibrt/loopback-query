@@ -1,8 +1,8 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
 
-import static com.ibrt.loopback.query.Order.newAsc;
-import static com.ibrt.loopback.query.Order.newDesc;
+import static me.ibrt.loopback.query.Order.newAsc;
+import static me.ibrt.loopback.query.Order.newDesc;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

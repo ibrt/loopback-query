@@ -1,17 +1,17 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Serializer.newSerializer;
-import static com.ibrt.loopback.query.Serializer.Literal.CLOSE_BRACE;
-import static com.ibrt.loopback.query.Serializer.Literal.COMMA_SPACE;
-import static com.ibrt.loopback.query.Serializer.Literal.OPEN_BRACE;
-import static com.ibrt.loopback.query.Serializer.Literal.SPACE;
-import static com.ibrt.loopback.query.Serializers.serializeCustom;
-import static com.ibrt.loopback.query.Serializers.serializeFields;
-import static com.ibrt.loopback.query.Serializers.serializeInclude;
-import static com.ibrt.loopback.query.Serializers.serializeLimit;
-import static com.ibrt.loopback.query.Serializers.serializeOrders;
-import static com.ibrt.loopback.query.Serializers.serializeSkip;
-import static com.ibrt.loopback.query.Serializers.serializeWhere;
+import static me.ibrt.loopback.query.Serializer.newSerializer;
+import static me.ibrt.loopback.query.Serializer.Literal.CLOSE_BRACE;
+import static me.ibrt.loopback.query.Serializer.Literal.COMMA_SPACE;
+import static me.ibrt.loopback.query.Serializer.Literal.OPEN_BRACE;
+import static me.ibrt.loopback.query.Serializer.Literal.SPACE;
+import static me.ibrt.loopback.query.Serializers.serializeCustom;
+import static me.ibrt.loopback.query.Serializers.serializeFields;
+import static me.ibrt.loopback.query.Serializers.serializeInclude;
+import static me.ibrt.loopback.query.Serializers.serializeLimit;
+import static me.ibrt.loopback.query.Serializers.serializeOrders;
+import static me.ibrt.loopback.query.Serializers.serializeSkip;
+import static me.ibrt.loopback.query.Serializers.serializeWhere;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

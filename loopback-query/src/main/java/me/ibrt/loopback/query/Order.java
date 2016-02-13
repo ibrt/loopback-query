@@ -1,9 +1,9 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Order.Direction.ASCENDING;
-import static com.ibrt.loopback.query.Order.Direction.DESCENDING;
-import static com.ibrt.loopback.query.Serializer.newSerializer;
-import static com.ibrt.loopback.query.Serializer.Literal.SPACE;
+import static me.ibrt.loopback.query.Order.Direction.ASCENDING;
+import static me.ibrt.loopback.query.Order.Direction.DESCENDING;
+import static me.ibrt.loopback.query.Serializer.newSerializer;
+import static me.ibrt.loopback.query.Serializer.Literal.SPACE;
 
 public final class Order {
 	private final String propertyName;

@@ -1,13 +1,13 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Where.newWhere;
-import static com.ibrt.loopback.query.Where.Clause.c;
-import static com.ibrt.loopback.query.Where.Clause.newClause;
-import static com.ibrt.loopback.query.Where.Operation.newOperation;
-import static com.ibrt.loopback.query.Where.Operator.BETWEEN;
-import static com.ibrt.loopback.query.Where.Operator.LT;
-import static com.ibrt.loopback.query.Where.Operator.OR;
-import static com.ibrt.loopback.query.Where.Operator.REGEXP;
+import static me.ibrt.loopback.query.Where.newWhere;
+import static me.ibrt.loopback.query.Where.Clause.c;
+import static me.ibrt.loopback.query.Where.Clause.newClause;
+import static me.ibrt.loopback.query.Where.Operation.newOperation;
+import static me.ibrt.loopback.query.Where.Operator.BETWEEN;
+import static me.ibrt.loopback.query.Where.Operator.LT;
+import static me.ibrt.loopback.query.Where.Operator.OR;
+import static me.ibrt.loopback.query.Where.Operator.REGEXP;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

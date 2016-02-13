@@ -1,11 +1,11 @@
-package com.ibrt.loopback.query;
+package me.ibrt.loopback.query;
 
-import static com.ibrt.loopback.query.Serializer.newSerializer;
-import static com.ibrt.loopback.query.Serializer.Literal.CLOSE_BRACE;
-import static com.ibrt.loopback.query.Serializer.Literal.COLUMN;
-import static com.ibrt.loopback.query.Serializer.Literal.COMMA;
-import static com.ibrt.loopback.query.Serializer.Literal.OPEN_BRACE;
-import static com.ibrt.loopback.query.Serializer.Literal.SPACE;
+import static me.ibrt.loopback.query.Serializer.newSerializer;
+import static me.ibrt.loopback.query.Serializer.Literal.CLOSE_BRACE;
+import static me.ibrt.loopback.query.Serializer.Literal.COLUMN;
+import static me.ibrt.loopback.query.Serializer.Literal.COMMA;
+import static me.ibrt.loopback.query.Serializer.Literal.OPEN_BRACE;
+import static me.ibrt.loopback.query.Serializer.Literal.SPACE;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
