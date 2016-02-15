@@ -1,13 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ibrt</groupId>
+  <groupId>me.ibrt</groupId>
   <artifactId>loopback-query</artifactId>
-  <version>0.3</version>
+  <version>0.4</version>
+  <packaging>jar</packaging>
+  <name>LoopBack Query</name>
+  <description>A Java library that generates query filters for LoopBack APIs programmatically.</description>
+  <url>https://github.com/ibrt/loopback-query</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://raw.githubusercontent.com/ibrt/loopback-query/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/ibrt/loopback-query/loopback-query</url>
+  </scm>
   <properties>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-  <description>A Java library that generates LoopBack API query filters.</description>
   <dependencies>
   	<dependency>
   		<groupId>junit</groupId>
@@ -16,4 +29,55 @@
   		<scope>test</scope>
   	</dependency>
   </dependencies>
+  <developers>
+    <developer>
+      <id>ibrt</id>
+      <name>Ivan Bertona</name>
+      <email>ivan@ibrt.me</email>
+    </developer>
+  </developers>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <downloadUrl>https://github.com/ibrt/loopback-query/loopback-query</downloadUrl>
+  </distributionManagement>
 </project>
